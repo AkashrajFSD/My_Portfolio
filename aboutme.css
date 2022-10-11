@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+}
+body {
+  background-color: rgb(214, 213, 213);
+}
+
+.header {
+  padding: 15px;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 20px auto 5px;
+}
+.aboutme {
+  background-color: black;
+}
+.home,
+.skill,
+.project,
+.link {
+  background-color: whitesmoke;
+}
+/* home ,skill, project,link*/
+.home,
+.aboutme,
+.skill,
+.project,
+.link {
+  margin-right: 50px;
+}
+.name-box {
+  /* border: 1px dodgerblue dotted; */
+  display: flex;
+  flex-direction: column;
+  margin-right: 400px;
+}
+.name-h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+.name-h4 {
+  margin-top: 10px;
+  font-size: 28;
+  font-weight: 700;
+}
+/* home */
+/* .home,
+.skill,
+.project,
+.link {
+  border: 1px solid gray;
+  padding: 8px;
+} */
+.home,
+.aboutme,
+.skill,
+.project,
+.link {
+  border: 1px solid black;
+  width: 100px;
+  height: 35px;
+  text-align: center;
+  padding: 5px;
+}
+a,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: whitesmoke;
+}
+.main-class {
+  margin-left: 180px;
+  margin-top: 50px;
+}
+.main-h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.main-p {
+  margin-top: 30px;
+  width: 60ch;
+  text-align: justify;
+  word-spacing: 1px;
+  font-size: 22px;
+}
+.mail {
+  margin-top: 50px;
+  border: 1px solid black;
+  width: 100px;
+  height: 45px;
+  text-align: center;
+  padding: 10px;
+  background-color: black;
+}
+.mail a,
+.mail a:visited {
+  color: whitesmoke;
+  text-decoration: none;
+  cursor: pointer;
+}
+.mail a:hover,
+a:focus {
+  color: gray;
+}
+/* aboume */
+.aboutme a,
+.aboutme a:visited {
+  color: whitesmoke;
+}
+.aboutme a:hover,
+.aboutme a:focus {
+  color: gray;
+}
+/* home ,skill, link,project */
+.home a,
+.home a:visited,
+.skill a,
+.skill a:visited,
+.link a,
+.link a:visited .project a,
+.project a:visited {
+  color: black;
+}
+.home a:hover,
+.home a:focus,
+.skill a:hover,
+.skill a:focus,
+.link a:hover,
+.link a:focus,
+.project a:hover,
+.project a:focus {
+  color: gray;
+}

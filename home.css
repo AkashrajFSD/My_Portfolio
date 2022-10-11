@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+}
+body {
+  background-color: rgb(214, 213, 213);
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.name-h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.name-h4 {
+  margin-top: 10px;
+  font-size: 26px;
+  font-weight: 700;
+}
+.s1 {
+  width: 70%;
+  /* border: 2px solid black; */
+  margin-left: 180px;
+  margin-top: 100px;
+}
+/* description */
+.description {
+  width: 50ch;
+  text-align: justify;
+  margin-top: 50px;
+  line-height: 1.5;
+  font-size: 16px;
+}
+/* get in touch */
+.mail {
+  margin-top: 30px;
+  border: 1px solid black;
+  width: 120px;
+  height: 30px;
+  padding: 5px;
+  text-align: center;
+  background-color: black;
+  color: whitesmoke;
+}
+.mail a {
+  color: whitesmoke;
+  text-decoration: none;
+  cursor: pointer;
+}
+.mail a:visited {
+  color: whitesmoke;
+}
+.mail a:hover,
+a:focus {
+  color: gray;
+}
+/* heading */
+.heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .aboutme,
+  .skills,
+  .projects,
+  .links {
+    margin-top: 100px;
+    border: 3px double gray;
+    background-color: whitesmoke;
+    color: black;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 10px 10px 10px black;
+  }
+  .skills,
+  .links,
+  .projects {
+    margin-left: 25px;
+  }
+  .heading a {
+    text-decoration: none;
+    color: black;
+  }
+  .heading a:visited {
+    color: black;
+  }
+  .heading a:hover,
+  a:focus {
+    color: gray;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* s2 */
+.s2 {
+  margin-top: 100px;
+  margin-right: 100px;
+}
+/* image */
+.figure img {
+  border-radius: 50%;
+  border: 15px double rgb(102, 96, 96);
+}

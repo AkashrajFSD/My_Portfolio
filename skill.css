@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+}
+body {
+  background-color: rgb(214, 213, 213);
+}
+
+.header {
+  padding: 15px;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 20px auto 5px;
+}
+.skill {
+  background-color: black;
+}
+.home,
+.aboutme,
+.project,
+.link {
+  background-color: whitesmoke;
+}
+/* home ,skill, project,link*/
+.home,
+.aboutme,
+.skill,
+.project,
+.link {
+  margin-right: 50px;
+}
+.name-box {
+  /* border: 1px dodgerblue dotted; */
+  display: flex;
+  flex-direction: column;
+  margin-right: 400px;
+}
+.name-h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+.name-h4 {
+  margin-top: 10px;
+  font-size: 28;
+  font-weight: 700;
+}
+.home,
+.aboutme,
+.skill,
+.project,
+.link {
+  border: 1px solid black;
+  width: 100px;
+  height: 35px;
+  text-align: center;
+  padding: 5px;
+}
+a,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: whitesmoke;
+}
+/* skill */
+.skill a,
+.skill a:visited {
+  color: whitesmoke;
+}
+.skill a:hover,
+.skill a:focus {
+  color: gray;
+}
+/* home,aboutme, link,project */
+.home a,
+.home a:visited,
+.aboutme a,
+.aboutme a:visited,
+.link a,
+.link a:visited .project a,
+.project a:visited {
+  color: black;
+}
+.home a:hover,
+.home a:focus,
+.aboutme a:hover,
+.aboutme a:focus,
+.link a:hover,
+.link a:focus,
+.project a:hover,
+.project a:focus {
+  color: gray;
+}
+/* main */
+
+.main-class {
+  margin-left: 180px;
+  margin-top: 50px;
+}
+.main-h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.image-box {
+  margin-left: 50px;
+  margin-top: 50px;
+}
